@@ -1,0 +1,62 @@
+.footer {
+    padding-top: 20px;
+}
+.header {
+    padding-bottom: 20px;
+}
+body {
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#354F52;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#354F52;
+}
+
+.nav-link {
+    color: #354F52!important;
+}
+
+ul.navbar-nav a:hover { 
+    color: #E76F51 !important; 
+}
+
+p {
+    color: #354F52!important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons {
+    color: #354F52;
+}
+
+a.mailto {
+    color: #354F52;
+}
+
+.bg-light {
+    background-color: #E5E5E5;
+}
+
+.img-thumbnail {
+    margin: 10px;
+    padding: .5rem;
+    border: 1px solid #354F52;
+    border-radius: 0;
+    background-color:#E5E5E5 ;
+}
+
+svg.contact {
+    padding: 25px;
+}
