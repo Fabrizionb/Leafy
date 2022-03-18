@@ -1,17 +1,13 @@
-li {
-    color:blue;
-        &:hover {
-            color:red;
-        }
-}
+//Misc//
+@import "./misc/variables";
+@import "./misc/normalize";
 
-p {
-    color:blue;
-        
-}
+//Partials//
+@import "./partials/header";
+@import "./partials/footer";
 
-div {
-    color:blue;
-        
-}
+//Views//
+@import "./views/home";
+@import "./views/contact";
+@import "./views/gallery";
 

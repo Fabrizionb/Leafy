@@ -1,10 +1,59 @@
-li {
-  color: blue; }
-  li:hover {
-    color: red; }
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@100;200;300;400;700&display=swap");
 p {
-  color: blue; }
+  color: #354F52 !important; }
 
-div {
-  color: blue; }
+a {
+  text-decoration: none; }
+
+.icons {
+  color: #354F52; }
+
+a.mailto {
+  color: #354F52; }
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #354F52; }
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #354F52; }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #354F52; }
+
+.bg-light {
+  background-color: #E5E5E5; }
+
+.header {
+  padding-bottom: 20px; }
+
+.nav-link {
+  color: #354F52 !important; }
+  .nav-link:hover {
+    color: #E76F51 !important; }
+
+footer {
+  padding-top: 20px; }
+
+body {
+  background-color: #E5E5E5;
+  font-family: "Montserrat", sans-serif; }
+
+svg.contact {
+  padding: 65px; }
+
+img.map {
+  border: 1px solid #354F52;
+  border-radius: 0.25rem !important; }
+
+.img-thumbnail {
+  margin: 10px;
+  padding: .5rem;
+  border: 1px solid #354F52 !important;
+  border-radius: 0;
+  background-color: #E5E5E5 !important; }
