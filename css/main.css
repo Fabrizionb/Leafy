@@ -38,6 +38,7 @@ h3 {
     color: #E76F51 !important; }
 
 footer {
+  margin: top 100px !important;
   padding-top: 20px; }
 
 body {
@@ -55,5 +56,5 @@ img.map {
   margin: 10px;
   padding: .5rem;
   border: 1px solid #354F52 !important;
-  border-radius: 0;
+  border-radius: 3px;
   background-color: #E5E5E5 !important; }
