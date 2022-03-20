@@ -12,7 +12,7 @@ a.mailto {
   color: #354F52; }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: bold;
   color: #354F52; }
 
@@ -48,6 +48,9 @@ body {
   background-color: #E5E5E5;
   font-family: "Montserrat", sans-serif; }
 
+main.contact {
+  margin-bottom: 287px !important; }
+
 svg.contact {
   padding: 65px; }
 
@@ -61,3 +64,7 @@ img.map {
   border: 1px solid #354F52 !important;
   border-radius: 3px;
   background-color: #E5E5E5 !important; }
+
+  main.gallery {
+    margin-bottom: 205px!important;
+}
