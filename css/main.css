@@ -42,7 +42,7 @@ footer {
   padding-top: 20px; }
 
 p.footer {
-  font-size: 0.5em; }
+  font-size: 0.5em !important; }
 
 body {
   background-color: #E5E5E5;
