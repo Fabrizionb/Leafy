@@ -41,6 +41,9 @@ footer {
   margin: top 100px !important;
   padding-top: 20px; }
 
+p.footer {
+  font-size: 0.5em; }
+
 body {
   background-color: #E5E5E5;
   font-family: "Montserrat", sans-serif; }
