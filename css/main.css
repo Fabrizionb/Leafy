@@ -29,6 +29,12 @@ h3 {
 .bg-light {
   background-color: #E5E5E5; }
 
+@media screen and (min-width: 768px) {
+  main.contact {
+    margin-bottom: 287px !important; }
+  main.gallery {
+    margin-bottom: 205px !important; } }
+
 .header {
   padding-bottom: 20px; }
 
@@ -48,9 +54,6 @@ body {
   background-color: #E5E5E5;
   font-family: "Montserrat", sans-serif; }
 
-main.contact {
-  margin-bottom: 287px !important; }
-
 svg.contact {
   padding: 65px; }
 
@@ -64,7 +67,3 @@ img.map {
   border: 1px solid #354F52 !important;
   border-radius: 3px;
   background-color: #E5E5E5 !important; }
-
-  main.gallery {
-    margin-bottom: 205px!important;
-}
