@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@100;200;300;400;700&display=swap");
+.f--xl {
+  font-size: 3.5em; }
+
+.f--large {
+  font-size: 2.5em; }
+
+.f--small {
+  font-size: 1.5em; }
+
+.f--xsmall {
+  font-size: 1em; }
+
+.f--footer {
+  font-size: 0.5em; }
+
 p {
   color: #354F52 !important; }
 
@@ -12,17 +27,10 @@ a.mailto {
   color: #354F52; }
 
 h1 {
-  font-size: 3.5em;
   font-weight: bold;
   color: #354F52; }
 
-h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #354F52; }
-
-h3 {
-  font-size: 1.5em;
+h2, h3 {
   font-weight: bold;
   color: #354F52; }
 
@@ -47,9 +55,6 @@ footer {
   margin: top 100px !important;
   padding-top: 20px; }
 
-p.footer {
-  font-size: 0.5em !important; }
-
 body {
   background-color: #E5E5E5;
   font-family: "Montserrat", sans-serif; }
@@ -67,3 +72,6 @@ img.map {
   border: 1px solid #354F52 !important;
   border-radius: 3px;
   background-color: #E5E5E5 !important; }
+
+b {
+  color: #E76F51; }

@@ -21,22 +21,18 @@ a.mailto {
 }
 
 h1 {
-    font-size: 3.5em;
-    font-weight: bold;
-    color: $cprincipal;
+    // font-size: 3.5em;
+    @include tstyle(bold);
 }
 
 h2 {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: $cprincipal;
+    // font-size: 2.5em;
+    @include tstyle(bold);
 }
 
 
 h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: $cprincipal;
+    @extend h2;
 }
 
 .bg-light {
@@ -54,3 +50,4 @@ h3 {
         margin-bottom: 205px !important;
     }
 }
+
