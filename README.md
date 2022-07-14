@@ -1,3 +1,22 @@
-# Proyecto de prueba Coderhouse
-## Codigo fuente de Leafy V.3 Bootstrap + Sass
+# Leafy
+## _Proyecto CoderHouse Desarrollo Web_
+#
+#
+#
+Como proyecto final de CoderHouse, realicé una web estática de una Consultora de Cannabis.
+
+## Made with 
+- Html
+- Css
+- Bootstrap
+- Sass
+
+
 ### Ver [Demo](https://fabrizionb.github.io/Leafyv2/) del sitio.
+#
+##
+###
+##
+#
+#
+
