@@ -12,7 +12,7 @@ Como proyecto final de CoderHouse, realicé una web estática de una Consultora 
 - Sass
 
 
-### Ver [Demo](https://fabrizionb.github.io/Leafyv2/) del sitio.
+### Ver [Demo](https://fabrizionb.github.io/Leafy/) del sitio.
 #
 ##
 ###
