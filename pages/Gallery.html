@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../public/img/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../public/img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../public/img/ico/favicon-16x16.png">
     <title>Leafy Consulting - Galeria</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-        integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Leafy Consulting, galería de fotos acerca de nuestros trabajos realizados">
+    <meta name="keywords"
+        content="CANNABIS, CONSULTING, CONSULTANT, FARM, GROW, BUSINESS, SEEDS, SEED, LEAFY, LEAF, CONSULTORIA, GRANJA, CULTIVO, MEDICINAL, RECREATIVO, ACEITE, OIL, SEMILLAS, NEGOCIO, GALERIA, GALLERY">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
@@ -23,7 +22,7 @@
             <div class="col-md-12 header">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent ">
                     <div class="container-fluid ">
-                        <a class="navbar-brand" href="../index.html"><img class="img-fluid w-50"
+                        <a class="navbar-brand" href="../index.html" aria-label="Home"><img class="img-fluid w-50"
                                 src="../public/img/Leafy.svg" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -33,16 +32,17 @@
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../pages/Contact.html">Contacto</a>
+                                    <a class="nav-link" href="../pages/Contact.html " aria-label="Contacto">Contacto</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link " href="../pages/Gallery.html">Galeria</a>
+                                    <a class="nav-link " href="../pages/Gallery.html" aria-label="Galeria">Galeria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="../pages/About.html">Nosotros</a>
+                                    <a class="nav-link " href="../pages/About.html" aria-label="Nosotros"> Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="../pages/Suppliers.html">Proveedores</a>
+                                    <a class="nav-link " href="../pages/Suppliers.html"
+                                        aria-label="Proveedores">Proveedores</a>
                                 </li>
                                 </li>
                             </ul>
@@ -51,34 +51,48 @@
                 </nav>
             </div>
         </div>
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4"><a href="../public/img/gallery/photo1.jpg" data-toggle="lightbox"
-                            data-gallery="example-gallery"><img src="../public/img/gallery/photo1.jpg"
-                                class="img-fluid img-thumbnail" alt="Foto1"></a></div>
-                    <div class="col-md-4"><a href="../public/img/gallery/photo2.jpg" data-toggle="lightbox"
-                            data-gallery="example-gallery"><img src="../public/img/gallery/photo2.jpg"
-                                class="img-fluid img-thumbnail" alt="Foto2"></a></div>
-                    <div class="col-md-4"><a href="../public/img/gallery/photo3.jpg" data-toggle="lightbox"
-                            data-gallery="example-gallery"><img src="../public/img/gallery/photo3.jpg"
-                                class="img-fluid img-thumbnail" alt="Foto3"></a></div>
-                    <div class="col-md-4"><a href="../public/img/gallery/photo5.jpg" data-toggle="lightbox"
-                            data-gallery="example-gallery"><img src="../public/img/gallery/photo5.jpg"
-                                class="img-fluid img-thumbnail" alt="Foto5"></a></div>
-                    <div class="col-md-4"><a href="../public/img/gallery/photo6.jpg" data-toggle="lightbox"
-                            data-gallery="example-gallery"><img src="../public/img/gallery/photo6.jpg"
-                                class="img-fluid img-thumbnail" alt="Foto6"></a></div>
-                    <div class="col-md-4"><a href="../public/img/gallery/photo7.jpg" data-toggle="lightbox"
-                            data-gallery="example-gallery"><img src="../public/img/gallery/photo7.jpg"
-                                class="img-fluid img-thumbnail" alt="Foto7"></a></div>
+        <main id="galeria" class="contaniner">
+            <div class="text-center pt-5">
+                <h2>Nuestros Trabajos</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="../public/img/gallery/photo1.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery"><img src="../public/img/gallery/photo1.jpg"
+                            alt="Galeria Foto 1"></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="../public/img/gallery/photo2.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery"><img src="../public/img/gallery/photo2.jpg"
+                            alt="Galeria Foto 2"></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="../public/img/gallery/photo3.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery"><img src="../public/img/gallery/photo3.jpg"
+                            alt="Galeria Foto 3"></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="../public/img/gallery/photo5.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery"><img src="../public/img/gallery/photo5.jpg"
+                            alt="Galeria Foto 4"></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="../public/img/gallery/photo6.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery"><img src="../public/img/gallery/photo6.jpg"
+                            alt="Galeria Foto 5"></a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="../public/img/gallery/photo7.jpg" data-toggle="lightbox"
+                        data-gallery="example-gallery"><img src="../public/img/gallery/photo7.jpg"
+                            alt="Galeria Foto 6"></a>
                 </div>
             </div>
+            <footer class="row footer">
+                <div class="col-md-12 text-center">
+                    <p class="footer f--footer"><b>Leafy</b> Consulting. All rights reserved &copy;2022</p>
+                </div>
         </main>
-        <footer class="row footer">
-            <div class="col-md-12 text-center">
-                <p>Leafy Consulting. All rights reserved &copy;2022</p>
-            </div>
         </footer>
     </section>
     <script src="../js/bootstrap.min.js"></script>

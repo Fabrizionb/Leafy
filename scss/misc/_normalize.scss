@@ -1,0 +1,53 @@
+//Fonts//
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@100;200;300;400;700&display=swap');
+
+// Globals //
+
+p {
+    color: $cprincipal !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons {
+    color: $cprincipal;
+}
+
+a.mailto {
+    color: $cprincipal;
+}
+
+h1 {
+    // font-size: 3.5em;
+    @include tstyle(bold);
+}
+
+h2 {
+    // font-size: 2.5em;
+    @include tstyle(bold);
+}
+
+
+h3 {
+    @extend h2;
+}
+
+.bg-light {
+    background-color: $cterciario;
+}
+
+// Media queries //
+
+@media screen and (min-width: 768px) {
+    main.contact {
+        margin-bottom: 287px !important;
+    }
+
+    main.gallery {
+        margin-bottom: 205px !important;
+    }
+}
+

@@ -1,0 +1,29 @@
+// Variables //
+
+$cprincipal: #354F52;
+$csecundario: #E76F51;
+$cterciario: #E5E5E5;
+
+$fprincipal: 'Poppins', sans-serif;
+$fsecundaria:'Montserrat', sans-serif;
+
+$sizes:(/*Font Sizes*/ 
+xl: 3.5em,
+large: 2.5em,
+small: 1.5em,
+xsmall: 1em,
+footer: 0.9git em
+);
+
+@each $var, $val in $sizes {
+    .f--#{$var} {
+        font-size: #{$val};
+    }
+}
+
+// Mixin //
+
+@mixin tstyle ($weight:bold, $color:$cprincipal) {
+    font-weight: bold;
+    color: $cprincipal;
+}
